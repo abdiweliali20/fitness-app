@@ -6,7 +6,7 @@ body {
     background-image: url(download.jpeg);
     background-position:80px ;
     background-size: cover;
-    display: flex;
+    /* display: flex; */
     
 }
 
