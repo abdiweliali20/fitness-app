@@ -1,12 +1,13 @@
-/* Reset default margin and padding */
+
 body, header, nav, ul, li {
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Background color */
+    background-color: #f4f4f4; 
 }
 
 header {
@@ -29,9 +30,9 @@ nav a.active {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* Container background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .about-container h1 {
@@ -56,7 +57,7 @@ nav a.active {
 
 .team-member img {
     width: 100px;
-    border-radius: 50%; /* Rounded image */
+    border-radius: 50%; 
     margin-bottom: 10px;
 }
 
@@ -69,7 +70,7 @@ nav a.active {
     font-size: 14px;
     color: #666;
 }
-/* Add more styling as needed */
+
 footer {
     background-color: #333;
     color: #fff;
